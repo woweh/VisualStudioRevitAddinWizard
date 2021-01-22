@@ -28,7 +28,7 @@ the [Revit Add-In Wizards on GitHub and Installer](http://thebuildingcoder.typep
 install.bat [Visual Studio Year - 2019, 2017, 2015]
 ```
 
-For Example
+Example for Visual Studio 2019:
 ```
 install.bat 2019
 ```
