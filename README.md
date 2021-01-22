@@ -1,17 +1,22 @@
-# Visual Studio Revit Add-in Templates
+# Visual Studio Revit C# Add-in Template
 
+![Revit API](https://img.shields.io/badge/Revit%20API-2017-blue.svg)
+![Revit API](https://img.shields.io/badge/Revit%20API-2018-blue.svg)
+![Revit API](https://img.shields.io/badge/Revit%20API-2019-blue.svg)
+![Revit API](https://img.shields.io/badge/Revit%20API-2020-blue.svg)
 ![Revit API](https://img.shields.io/badge/Revit%20API-2021-blue.svg)
+
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgray.svg)
+
 ![.NET](https://img.shields.io/badge/.NET-4.7-blue.svg)
+![.NET](https://img.shields.io/badge/.NET-4.8-blue.svg)
+
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://opensource.org/licenses/MIT)
 
-The Visual Studio Revit add-in wizards provide Visual Studio templates for generating C# and VB .NET Revit add-ins.
+This is a fork of:
+https://github.com/jeremytammik/VisualStudioRevitAddinWizard
 
-They enable the instantaneous and automatic generation, installation and debugging of a new Revit add-in skeleton with one single click.
-
-Ample documentation is provided in [The Building Coder](http://thebuildingcoder.typepad.com) topic group
-on [Visual Studio Revit add-in templates](http://thebuildingcoder.typepad.com/blog/about-the-author.html#5.20).
-
+The Visual Studio Revit add-in wizard provides a Visual Studio template for generating C# Revit add-ins, supporting Revit versions 2017-2021.
 
 ## Installation
 
@@ -23,19 +28,12 @@ the [Revit Add-In Wizards on GitHub and Installer](http://thebuildingcoder.typep
 install.bat [Visual Studio Year - 2019, 2017, 2015]
 ```
 
-## Revit2017AddInTemplateSet
+For Example
+```
+install.bat 2019
+```
 
-Please also note the alternative, more complex and
-full-fledged
-[Revit2017AddInTemplateSet](https://github.com/Andrey-Bushman/Revit2017AddInTemplateSet) provided
-by [Andrey Bushman](https://github.com/Andrey-Bushman).
-
-For a full discussion of that and comparison of the two, please refer to the discussion of
-the [New Visual Studio Templates for Revit Add-Ins](http://thebuildingcoder.typepad.com/blog/2017/02/new-visual-studio-2015-templates-for-revit-add-ins.html).
-
-
-## Author
-
+## Original Author
 Jeremy Tammik,
 [The 3D Web Coder](http://the3dwebcoder.typepad.com) and
 [The Building Coder](http://thebuildingcoder.typepad.com),
@@ -43,6 +41,9 @@ Jeremy Tammik,
 [Open](http://www.autodesk.com/adnopen),
 [Autodesk Inc.](http://www.autodesk.com)
 
+## Maintainer
+Wolfgang Weh,
+[Neanex](https://www.neanex.com)
 
 ## License
 
